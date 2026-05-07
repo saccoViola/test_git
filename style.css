@@ -1,5 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;	
+}
+
+body{
+	max-width: 1440px;
+	width:80%;
+	margin: 0 auto;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:100px;
+}
 h1{
-	color:red;
+	color:purple;
 }
 p{
 	color:green;
